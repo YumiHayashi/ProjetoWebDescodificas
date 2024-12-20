@@ -1,6 +1,6 @@
-Entrega do Projeto Final - Cultura Pop e Tecnologia
+Entrega do Projeto Final - Seriescope
 
-Projeto Escolhido: Cultura Pop e Tecnologia (Filmes eSéries)
+Projeto Escolhido: Cultura Pop (Filmes eSéries)
 
 Descrição
 
