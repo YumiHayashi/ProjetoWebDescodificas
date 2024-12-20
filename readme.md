@@ -172,4 +172,4 @@ Contato: yumihay28@gmail.com
 
 ---
 
-Nota: Este projeto foi desenvolvido como parte do aprendizado na área de desenvolvimento web, combinando técnicas de design, banco de dados e backend para criar uma plataforma interativa de cultura pop.
+Nota: Este projeto foi desenvolvido como parte do aprendizado na área de desenvolvimento web, combinando técnicas de design, banco de dados e backend.
