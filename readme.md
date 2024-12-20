@@ -155,7 +155,9 @@ node server.js
 
 2. Conecte o repositório e inicie o deploy.
 
+### Há outra forma fácil de executar o site: 
 
+1. Execute ele diretamente do index.html do VsCode no seu navegador.
 
 
 ---
