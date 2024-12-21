@@ -30,6 +30,7 @@ html, body {
 .logo {
     width: 50%;
     margin-top: 10px;
+    margin-left: 50%;
 }
 
 .menu {
