@@ -75,22 +75,3 @@ section.sobre{
     margin-left: 50px;
 }
 
-.search-form {
-    display: flex;
-    gap: 10px;
-    margin: 20px 0;
-  }
-  
-  .search-form input {
-    padding: 10px;
-    width: 300px;
-    border-radius: 5px;
-  }
-  
-  .search-form button {
-    background-color: #ff6f61;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-  }
