@@ -83,15 +83,6 @@ section.sobre{
     margin-left: 50px;
 }
 
-.center {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 2%;
-}
-
 .search-container {
     display: flex;
     align-items: center;
