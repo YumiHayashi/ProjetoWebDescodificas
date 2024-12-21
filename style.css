@@ -63,11 +63,19 @@ section.sobre{
     background-color: rgb(180, 69, 69);
 }
 
-.rodape a{
+.rodape a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
-    margin-left: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+.rodape {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #333;
 }
 
 .texto-sobre{
