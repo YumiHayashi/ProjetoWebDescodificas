@@ -8,7 +8,7 @@ Este projeto tem como objetivo explorar os temas de cultura pop e tecnologia, of
 
 Objetivos:
 
-Criar uma plataforma para consulta e gerenciamento de filmes, músicas e séries.
+Criar uma plataforma para consulta e gerenciamento de filmes e séries.
 
 Desenvolver uma API RESTful para interação com o banco de dados.
 
@@ -33,7 +33,7 @@ A plataforma oferece uma maneira simples de buscar e explorar conteúdos de film
 
 Benefícios:
 
-Facilidade de busca de filmes, músicas e séries.
+Facilidade de busca de filmes e séries.
 
 Detalhes sobre cada item, incluindo sinopse, ano e imagens.
 
@@ -51,11 +51,11 @@ A interface do projeto é moderna e focada em uma estética inspirada na cultura
 
 Funcionalidades:
 
-Menu de Navegação: Acesso rápido a filmes, músicas, séries e a seção "Sobre".
+Menu de Navegação: Acesso rápido a filmes, séries e a seção "Sobre".
 
-Cards de Conteúdo: Exibição de filmes, músicas e séries populares com detalhes básicos.
+Cards de Conteúdo: Exibição de filmes e séries populares com detalhes básicos.
 
-Detalhes do Conteúdo: Páginas individuais com informações completas sobre filmes, álbuns e séries.
+Detalhes do Conteúdo: Páginas individuais com informações completas sobre filmes e séries.
 
 Botões de Ação: Como "Ver Mais".
 
@@ -126,11 +126,10 @@ npm install
 
 ### 3. Configure o banco de dados MySQL:
 
-Crie o banco de dados:
 
-CREATE DATABASE cultura_pop;
+cultura_pop
 
-Execute os comandos SQL em banco.sql para criar as tabelas.
+Execute os comandos SQL
 
 
 
