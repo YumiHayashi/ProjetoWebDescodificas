@@ -190,3 +190,32 @@ body{
     margin-right: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 40%;
+    margin-top: -10px;
+}
+
+.search-bar {
+    width: 250px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    outline: none;
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.2s;
+}
+
+.search-button:hover {
+    transform: scale(1.1);
+}
