@@ -70,6 +70,15 @@ section.sobre{
     margin-left: 30%;
 }
 
+.rodape {
+    display: flex;
+    height: 60px; /* Altura fixa do rodapé */
+    background-color: #333;
+    position: absolute;
+    bottom: 0;  /* Fixa no final da página */
+    left: 0;
+}
+
 .texto-sobre{
     margin-top: 100px;
     margin-left: 50px;
