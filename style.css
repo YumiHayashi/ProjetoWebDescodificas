@@ -87,7 +87,7 @@ section.sobre{
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-left: 60px;
+    margin-left: 150%;
 }
 
 .search-bar {
