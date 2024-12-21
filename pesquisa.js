@@ -1,12 +1,24 @@
-function search() {
-        // Captura o valor digitado na barra de pesquisa
-        var searchTerm = document.getElementById('searchInput').value;
+    // Função de pesquisa
+    function search() {
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        const results = movies.filter(movie => movie.toLowerCase().includes(searchTerm));
 
-        if (searchTerm) {
-            // Aqui você pode decidir o que fazer com o valor da pesquisa. 
-            // Exemplo: redireciona para uma página de resultados de pesquisa (passando o termo na URL).
-            window.location.href = '/search.html?q=' + encodeURIComponent(searchTerm);
+        displayResults(results);
+    }
+
+    // Função para exibir os resultados da pesquisa
+    function displayResults(results) {
+        const resultsContainer = document.getElementById('searchResults');
+        resultsContainer.innerHTML = '';  // Limpa resultados anteriores
+
+        if (results.length > 0) {
+            results.forEach(movie => {
+                const resultItem = document.createElement('div');
+                resultItem.classList.add('movie-item');
+                resultItem.textContent = movie;
+                resultsContainer.appendChild(resultItem);
+            });
         } else {
-            alert('Digite algo para pesquisar.');
+            resultsContainer.textContent = 'Nenhum filme encontrado.';
         }
     }
