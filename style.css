@@ -63,22 +63,11 @@ section.sobre{
     background-color: rgb(180, 69, 69);
 }
 
-.rodape {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;  /* Ocupa toda a largura */
-    height: 60px; /* Altura fixa do rodapé */
-    background-color: #333;
-    position: absolute;
-    bottom: 0;  /* Fixa no final da página */
-    left: 0;
-}
-
-.rodape a {
+.rodape a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
+    margin-left: 30%;
 }
 
 .texto-sobre{
