@@ -67,7 +67,7 @@ section.sobre{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
-    margin-left: 100px;
+    margin-left: 90px;
 }
 
 .rodape {
@@ -87,7 +87,8 @@ section.sobre{
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-left: 50%;
+    margin-left: 40%;
+    margin-top: 10px;
 }
 
 .search-bar {
