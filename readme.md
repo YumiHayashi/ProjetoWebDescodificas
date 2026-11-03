@@ -44,7 +44,6 @@ O projeto é direcionado principalmente a:
 |---|---|
 | 🎬 Filmes | Consulta e exibição de filmes disponíveis. |
 | 📺 Séries | Exploração e gerenciamento de séries. |
-| 🎵 Músicas | Proposta de consulta de conteúdos musicais. |
 | 🔎 Pesquisa | Busca e exploração de conteúdos. |
 | 📝 Detalhes | Exibição de sinopse, ano e imagens. |
 | 🌐 Compartilhamento | Acesso ao repositório do projeto pelo GitHub. |
@@ -214,179 +213,19 @@ A implantação do backend e do banco de dados exige configuração própria, po
 ---
 
 ## 👩‍💻 Autoria
-Entrega do Projeto Final - Seriescope
 
-Projeto Escolhido: Cultura Pop (Filmes eSéries)
+**Isabela Yumi Hayashi Sabanay**
 
-Descrição
+Desenvolvedora Full Stack em formação.
 
-Este projeto tem como objetivo explorar os temas de cultura pop e tecnologia, oferecendo aos usuários uma plataforma para pesquisar, adicionar e interagir com filmes e séries. O backend foi desenvolvido utilizando Node.js, Express e MySQL, enquanto o frontend traz um design moderno e responsivo, com uma estética vibrante e inspirada na cultura pop.
+📧 **Contato:** [yumihay28@gmail.com](mailto:yumihay28@gmail.com)
 
-Objetivos:
-
-Criar uma plataforma para consulta e gerenciamento de filmes e séries.
-
-Desenvolver uma API RESTful para interação com o banco de dados.
-
-Hospedar o frontend e backend de forma gratuita em plataformas como Vercel.
-
-
+🐙 **GitHub:** [Acessar perfil](https://github.com/YumiHayashi)
 
 ---
 
-1. Público-Alvo
+## 📚 Contexto Acadêmico
 
-Este projeto foi desenvolvido para:
+O Seriescope foi desenvolvido como parte de um processo de aprendizagem na área de desenvolvimento web, envolvendo conceitos de programação, estruturação de interfaces, integração entre sistemas, desenvolvimento de APIs e gerenciamento de bancos de dados relacionais.
 
-Jovens adultos e adultos entre 18 e 35 anos.
-
-Fãs de cultura pop (filmes e séries).
-
-Usuários que buscam uma interface interativa e moderna para explorar conteúdo relacionado a entretenimento.
-
-
-A plataforma oferece uma maneira simples de buscar e explorar conteúdos de filmes, séries e músicas populares.
-
-Benefícios:
-
-Facilidade de busca de filmes e séries.
-
-Detalhes sobre cada item, incluindo sinopse, ano e imagens.
-
-Integração social com opções de compartilhamento em redes sociais.
-
-Design responsivo que se adapta a diferentes dispositivos.
-
-
-
----
-
-### 2. Interface do Usuário
-
-A interface do projeto é moderna e focada em uma estética inspirada na cultura pop, com cores vibrantes e uma navegação simples.
-
-Funcionalidades:
-
-Menu de Navegação: Acesso rápido a filmes, séries e a seção "Sobre".
-
-Cards de Conteúdo: Exibição de filmes e séries populares com detalhes básicos.
-
-Detalhes do Conteúdo: Páginas individuais com informações completas sobre filmes e séries.
-
-Botões de Ação: Como "Ver Mais".
-
-Interação Social: Compartilhamento do Github no rodapé.
-
----
-
-### 3. Base de Dados e Tecnologias Utilizadas
-
-Node.js: Ambiente de execução para o backend. Node.js
-
-Express: Framework para criação de APIs no Node.js. Expressjs
-
-MySQL: Banco de dados relacional para armazenar as informações de filmes, séries e músicas. MySQL
-
-Cors: Middleware para habilitar requisições de diferentes origens. Cors
-
-dotenv: Para gerenciar variáveis de ambiente de forma segura. dotenv
-
-JavaScript: Linguagem utilizada no desenvolvimento de toda a lógica do frontend e backend. JavaScript
-
-HTML/CSS: Para estruturação e estilização da interface. HTML, CSS
-
-MySQL Workbench: Ferramenta para gerenciar o banco de dados. MySQL Workbench
-
----
-
-### 4. API
-
-A API é responsável pela interação com o banco de dados, permitindo que os usuários consultem filmes, séries e músicas.
-
-### Endpoints:
-
-GET /filmes: Retorna todos os filmes disponíveis.
-
-POST /series: Adiciona uma nova série ao banco de dados.
-
-
-### Métodos Suportados:
-
-GET: Recuperar dados.
-
-POST: Criar novos registros (ex: adicionar série).
-
-
-
----
-
-### 5. Como Executar Localmente
-
-Pré-requisitos:
-
-Node.js e MySQL instalados em sua máquina.
-
-
-Passos para Execução:
-
-### 1. Clone o repositório:
-
-git clone 
-cd cultura-pop
-
-
-### 2. Instale as dependências:
-
-npm install
-
-
-### 3. Configure o banco de dados MySQL:
-
-
-cultura_pop
-
-Execute os comandos SQL
-
-
-
-###  4. Inicie o servidor:
-
-node server.js
-
-
-###  5. Teste os endpoints com ferramentas como Postman.
-
-
-
-
----
-
-
-
-### 6. Vercel:
-
-1. Faça login no Vercel.
-
-
-2. Conecte o repositório e inicie o deploy.
-
-### Há outra forma fácil de executar o site: 
-
-1. Execute ele diretamente do index.html do VsCode no seu navegador.
-
-
----
-
-### 7. Autores
-
-Isabela Yumi Hayashi Sabanay
-
-Full Stack Developer.
-
-Contato: yumihay28@gmail.com
-
-
-
----
-
-Nota: Este projeto foi desenvolvido como parte do aprendizado na área de desenvolvimento web, combinando técnicas de design, banco de dados e backend.
+O projeto representa a aplicação prática de conhecimentos relacionados ao desenvolvimento Full Stack e à construção de soluções tecnológicas.
